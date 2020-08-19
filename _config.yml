@@ -3,11 +3,11 @@
 permalink:           /:categories/:year/:month/:day/:title/
 
 # Setup
-title:               Samuel Steven Smith
+title:               'Samuel Steven Smith'
 tagline:             Personal Webiste
-description:         Investigating the auditory brain, combining quantitative tools & experimental data.
+description:         An early career neuroscientist investigating the auditory brain.
 url:                 http://samstesmi.github.io
-baseurl:             ''
+baseurl:             '/'
 paginate:            5
 
 # Plugins, Tags, Categories and Analytics

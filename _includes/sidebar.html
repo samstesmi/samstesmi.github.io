@@ -1,16 +1,16 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      <center>
+        <img class="photo" class="center" src="/public/images/logo.png" alt="" />
+      </center>
       <h1>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
-        </a>
+        sam<span id='smallerText'>uel </span>ste<span id='smallerText'>ven </span>smi<span id='smallerText'>th </span><i><span id='smallerText2'>.github.io</span></i>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">University website, linkedin, researchfish/gate, my github, twitter</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -26,10 +26,7 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

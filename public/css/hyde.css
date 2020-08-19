@@ -36,12 +36,12 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -55,7 +55,7 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem .25rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
@@ -65,21 +65,31 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 19rem;
     text-align: left;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  : #fff;
 }
 
 /* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-size: 3.25rem;
+  font-size: 2.25rem;
+}
+#smallerText
+{
+    font-size:.75rem;
+}
+#smallerText2
+{
+    font-size:.75rem;
+    color: rgba(255,255,255,.5);
+    font-weight:normal;
 }
 
 /* Sidebar nav */
@@ -89,6 +99,7 @@ html {
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  color: #fff;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -107,12 +118,11 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
-    right:  1rem;
+    right:  0rem;
     bottom: 1rem;
-    left:   1rem;
+    left:   0rem;
   }
 }
-
 
 /* Container
  *

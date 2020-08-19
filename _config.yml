@@ -3,10 +3,10 @@
 permalink:           /:categories/:year/:month/:day/:title/
 
 # Setup
-title:               My Title
-tagline:             My Own Webiste
-description:         Some Amazing Description
-url:                 http://yoururl.com
+title:               Samuel Steven Smith
+tagline:             Personal Webiste
+description:         Investigating the auditory brain, combining quantitative tools & experimental data.
+url:                 http://samstesmi.github.io
 baseurl:             ''
 paginate:            5
 
@@ -15,6 +15,6 @@ plugins:          [jekyll-paginate]
 
 # About/contact
 author:
-  name:              Your Name
-  url:               https://yoururl.com
-  email:             you@gmail.com
+  name:              Samuel Smith
+  url:               http://samstesmi.github.io
+  email:             samuel.smith@nottingham.ac.uk

@@ -82,13 +82,12 @@ html {
 }
 #smallerText
 {
-    font-size:.75rem;
+    font-size:.7rem;
 }
 #smallerText2
 {
-    font-size:.65rem;
-    color: rgba(255,255,255,.5);
-    font-weight:normal;
+    font-size:.7rem;
+    color: #000000;
 }
 
 /* Sidebar nav */
@@ -97,8 +96,9 @@ html {
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
+  line-height: 1.3;
   color: rgba(255,255,255,.7);
+  font-size: 1.1rem;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -106,7 +106,6 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
-  color: #FFF;
 }
 #floatR
 {
@@ -285,12 +284,12 @@ a.sidebar-nav-item:focus {
 
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
+  background: #000000;
   color: white;
 }
 /* Linkedin */
 .fa-linkedin {
-  background: #007bb5;
+  background: #000000;
   color: white;
 }
 /* mail */
@@ -300,11 +299,11 @@ a.sidebar-nav-item:focus {
 }
 /* Github */
 .fa-github-square {
-  background: #B22222;
+  background: #000000;
   color: white;
 }
 /* Github */
 .fa-university {
-  background: #228B22;
+  background: #000000;
   color: white;
 }

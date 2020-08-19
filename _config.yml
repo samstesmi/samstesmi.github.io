@@ -7,8 +7,8 @@ title:               'Samuel Steven Smith'
 tagline:             Personal Webiste
 description:         An early career neuroscientist investigating the auditory brain.
 url:                 http://samstesmi.github.io
-baseurl:             http://samstesmi.github.io
-paginate:            5
+baseurl:             /
+paginate:            3
 
 # Plugins, Tags, Categories and Analytics
 plugins:          [jekyll-paginate]

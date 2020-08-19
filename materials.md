@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Collated Resources
+title: Materials
 order: 3
 ---
 

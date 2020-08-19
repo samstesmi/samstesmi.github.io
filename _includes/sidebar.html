@@ -8,10 +8,6 @@
         sam<span id='smallerText'>uel </span>ste<span id='smallerText'>ven </span>smi<span id='smallerText'>th </span><i><span id='smallerText2'>.github.io</span></i>
       </h1>
       <p> </p>
-      <a href="https://twitter.com/SamSteSmi" class="fa fa-twitter"></a>
-      <a href="www.linkedin.com/in/samstesmi" class="fa fa-linkedin"></a>
-      ,GitHub,UoNottingham,Email
-      <p> </p>
     </div>
 
     <nav class="sidebar-nav">
@@ -21,7 +17,7 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-      {% assign pages_list = site.pages %}
+      {% assign pages_list = site.pages | sort:"order" %}
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
@@ -31,6 +27,16 @@
       {% endfor %}
 
     </nav>
+
+    <div class="sidebar-about">
+      <center>
+      <a href="mailto: samuel.smith@nottingham.ac.uk" class="fa fa-envelope-o"></a>
+      <a href="https://www.nottingham.ac.uk/research/groups/hearingsciences/people/samuel.smith" class="fa fa-university"></a>
+      <a href="https://github.com/samstesmi/" class="fa fa-github-square"></a>
+      <a href="https://twitter.com/SamSteSmi" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/in/samstesmi" class="fa fa-linkedin"></a>
+      </center>
+    </div>
 
   </div>
 </div>

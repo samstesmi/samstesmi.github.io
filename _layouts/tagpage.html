@@ -4,7 +4,7 @@ layout: default
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
-<h3> tags </h3>
+<h3> Tags </h3>
 {% capture temptags %}
   {% for tag in site.tags %}
     {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
@@ -23,7 +23,7 @@ layout: default
 {% endfor %}
 </span>
 
-<h3> projects </h3>
+<h3> Projects </h3>
 <div style="height: 15px;">&nbsp;</div>
 <ul>
   {% for post in site.tags[page.tag] %}

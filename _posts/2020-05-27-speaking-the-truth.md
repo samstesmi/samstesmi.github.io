@@ -1,11 +1,9 @@
 ---
 layout: post
 title: speaking the truth
-tags: all algorithm speech lie
+tags: all algorithm speech
 ---
-<p class="message">
-excerpt text
-</p>
+Project start: {{ page.date | date: '%B, %Y' }}
 <!--more-->
 
 ## Rest of post

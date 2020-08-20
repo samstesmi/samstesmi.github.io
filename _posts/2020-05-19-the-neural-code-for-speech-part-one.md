@@ -3,9 +3,7 @@ layout: post
 title: the neural code for speech (part i)
 tags: all
 ---
-<p class="message">
-excerpt text
-</p>
+Project start: {{ page.date | date: '%B, %Y' }}
 <!--more-->
 
 ## Rest of post

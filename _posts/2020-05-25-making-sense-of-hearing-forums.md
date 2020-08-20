@@ -2,9 +2,7 @@
 layout: post
 title: making sense of hearing forums
 ---
-<p class="message">
-excerpt text
-</p>
+Project start: {{ page.date | date: '%B, %Y' }}
 <!--more-->
 
 ## Rest of post

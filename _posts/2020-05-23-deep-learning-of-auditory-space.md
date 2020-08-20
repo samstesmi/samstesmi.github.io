@@ -3,9 +3,7 @@ layout: post
 title: deep learning of auditory space
 tags: all
 ---
-<p class="message">
-excerpt text
-</p>
+Project start: {{ page.date | date: '%B, %Y' }}
 <!--more-->
 
 ## Rest of post

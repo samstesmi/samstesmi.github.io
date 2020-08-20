@@ -3,9 +3,7 @@ layout: post
 title: discovering your voice
 tags: all algorithm voice
 ---
-<p class="message">
-excerpt text
-</p>
+Project start: {{ page.date | date: '%B, %Y' }}
 <!--more-->
 
 ## Rest of post

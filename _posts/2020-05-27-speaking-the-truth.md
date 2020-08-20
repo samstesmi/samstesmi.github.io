@@ -10,10 +10,3 @@ excerpt text
 
 ## Rest of post
 more text
-
-### tags
-<ul>
-  {% for tags in post.tags %}
-    <li>{{ tags }}</li>
-  {% endfor %}
-</ul>

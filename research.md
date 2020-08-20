@@ -4,16 +4,20 @@ title: research
 order: 2
 ---
 
-{{ site.baseurl }}public/css/poole.css
+LIST OF RESEARCH PROJECTS AT TOP
 
-<p class="message">
-  This page will list research projects in terms of posts (dated between when the research was done). There will be tags at te top of this page, and below it the research projects in order.
-</p>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-In this case, *There will be* layman text about the project and links to publications and github code
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-My twitter [@msamstesmi](https://twitter.com/samstesmi). This and github should be on the sidebar
-
-* [Example publication](link to it)
-
-## heading
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>

@@ -1,1 +1,1 @@
-# GitHub repo for https://samstesmi.github.io
+GitHub repo for https://samstesmi.github.io

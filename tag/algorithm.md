@@ -5,9 +5,9 @@ exclude: true
 ---
 
 ### tags
-[all](% link https://samstesmi.github.io/tag/tag/all.md %)
-[**algorithm**](% link https://samstesmi.github.io/tag/tag/algorithm.md %)
-[speech](% link https://samstesmi.github.io/tag/tag/speech.md %)
+[all](https://samstesmi.github.io/tag/tag/all.md)
+[**algorithm**](https://samstesmi.github.io/tag/tag/algorithm.md)
+[speech](https://samstesmi.github.io/tag/tag/speech.md)
 
 ### projects
 <ul style="list-style-type:none">

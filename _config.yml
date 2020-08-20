@@ -1,6 +1,6 @@
 # Permalinks
 #
-permalink:           /:categories/:year/:title/
+permalink:           /research/:year/:title/
 
 # Setup
 title:               'Samuel Steven Smith'

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
 title: Research
-tag: all
-order: 2
+tag: hearing-impairment
+exclude: true
 ---

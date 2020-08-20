@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about me
+title: About me
 order: 1
 ---
 
@@ -19,4 +19,4 @@ Beyond auditory science, I am fond of blues music and enjoy heading outdoors.
 *2012-2015* &nbsp;&nbsp; B.Sc. (Hons) Mathematics, Uni. of Leeds
 
 ### this website
-This personal website offers a brief introduction to myself and my research. Additionally, links to publications, code, and other resources, are provided.
+This personal website offers a brief introduction to myself and my research. Additionally, links to publications, code, and other resources are provided.

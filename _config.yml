@@ -1,14 +1,14 @@
 # Permalinks
 #
-permalink:           /:categories/:year/:month/:day/:title/
+permalink:           /:categories/:year/:title/
 
 # Setup
 title:               'Samuel Steven Smith'
 tagline:             Personal Webiste
 description:         An early career neuroscientist investigating the auditory brain.
-url:                 http://samstesmi.github.io
+url:                 http://samstesmi.github.io/
 baseurl:             /
-paginate:            3
+excerpt_separator: <!--more-->
 
 # Plugins, Tags, Categories and Analytics
 plugins:          [jekyll-paginate]

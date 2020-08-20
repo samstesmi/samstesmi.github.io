@@ -1,16 +1,12 @@
 ---
 layout: post
 title: the neural code for speech (part ii - hearing loss)
+tags: all
 ---
-
 <p class="message">
-  This page will list research projects in terms of posts (dated between when the research was done). There will be tags at te top of this page, and below it the research projects in order.
+excerpt text
 </p>
+<!--more-->
 
-In this case, *There will be* layman text about the project and links to publications and github code
-
-My twitter [@msamstesmi](https://twitter.com/samstesmi). This and github should be on the sidebar
-
-* [Example publication](link to it)
-
-## heading
+## Rest of post
+more text

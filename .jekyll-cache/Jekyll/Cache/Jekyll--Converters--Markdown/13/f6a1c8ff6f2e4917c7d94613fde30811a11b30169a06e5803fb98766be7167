@@ -1,0 +1,14 @@
+I"$<p class="message">
+  This page will list research projects in terms of posts (dated between when the research was done). There will be tags at te top of this page, and below it the research projects in order.
+</p>
+
+<p>In this case, <em>There will be</em> layman text about the project and links to publications and github code</p>
+
+<p>My twitter <a href="https://twitter.com/samstesmi">@msamstesmi</a>. This and github should be on the sidebar</p>
+
+<ul>
+  <li><a href="link to it">Example publication</a></li>
+</ul>
+
+<h2 id="heading">heading</h2>
+:ET

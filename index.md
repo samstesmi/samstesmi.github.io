@@ -13,8 +13,11 @@ Beyond auditory science, I am fond of blues music (listening & playing) and enjo
 
 ## a short bio
 2019-present. Postdoctoral Research. University of Nottingham.
+
 2016-2019. PhD Otorhinolaryngology. University of Nottingham.
+
 2015-2016. M.Sc. Cognitive and Computational Neuroscience. University of Sheffield.
+
 2012-2015. B.Sc. (Hons) Mathematics. University of Leeds.
 
 ## this website

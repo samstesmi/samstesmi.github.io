@@ -12,6 +12,7 @@ I am an early career neuroscientist working at the University of Nottingham. My 
 Beyond auditory science, I am fond of blues music (listening & playing) and enjoy heading outdoors (often by bike).
 
 ## a short bio
+
 2019-present. Postdoctoral Research. University of Nottingham.
 
 2016-2019. PhD Otorhinolaryngology. University of Nottingham.

@@ -8,13 +8,14 @@ I am an early career neuroscientist working at the University of Nottingham. My 
 * Human identification of speech in noisy environments
 * Abnormal auditory perception
 * Hearing impairment
+
 Beyond auditory science, I am fond of blues music (listening & playing) and enjoy heading outdoors (often by bike).
 
-## A short bio
+## a short bio
 2019-present. Postdoctoral Research. University of Nottingham.
 2016-2019. PhD Otorhinolaryngology. University of Nottingham.
 2015-2016. M.Sc. Cognitive and Computational Neuroscience. University of Sheffield.
 2012-2015. B.Sc. (Hons) Mathematics. University of Leeds.
 
-## This website
+## this website
 The site offers a brief introduction to myself and my research, providing links to publications, code, and other resources.

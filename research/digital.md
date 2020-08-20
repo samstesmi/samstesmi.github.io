@@ -1,6 +1,6 @@
 ---
 layout: tagpage
 title: Research
-tag: technology
+tag: digital
 exclude: true
 ---

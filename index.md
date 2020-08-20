@@ -4,8 +4,8 @@ title: About me
 order: 1
 ---
 
-I am an early career scientist working in Nottingham, UK. My research focuses on the auditory brain, integrating cutting-edge quantitative techniques and experimental data. I am particularly interested in:
-* speech recognition in tricky circumstances
+I am an early career neuroscientist working in Nottingham, UK. My research focuses on the auditory brain, integrating cutting-edge quantitative techniques and experimental data. I am particularly interested in:
+* speech recognition in noisy places
 * abnormal auditory perception
 * hearing impairment
 
@@ -19,4 +19,4 @@ Beyond auditory science, I am fond of blues music and enjoy heading outdoors.
 *2012-2015* &nbsp;&nbsp; B.Sc. (Hons) Mathematics, Uni. of Leeds
 
 ### This website
-The site offers an introduction to myself and my research. Additionally, links to publications, code, and other resources are provided.
+The site offers a summary of my research. Links to resources, such as publications and code, are provided alongside.

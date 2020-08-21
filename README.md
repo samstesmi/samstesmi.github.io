@@ -2,6 +2,6 @@
 
 index.md contains markdown for the 'About Me' page
 
-research projects are stored in the "post" folder
+research projects are stored in the "\_post" folder
 
-tag pages are simply created in the "tags" folder (add psychoacoustics, physiology, supervised, unsupervised, neural-network)
+tag pages are simply created under a .md file in the "research" folder (add psychoacoustics, physiology, supervised, unsupervised, neural-network)

@@ -8,3 +8,5 @@ tags: all algorithm speech
 
 ## Rest of post
 more text
+
+Learning questions to ask to optimise variation between honest and truth. Advanced application of existing ideas of lie detectors (deviance from baseline) but with simpler to access stimuli.

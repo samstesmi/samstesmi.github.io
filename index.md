@@ -6,7 +6,7 @@ order: 1
 
 I am an early career neuroscientist working in Nottingham, UK. My research focuses on the auditory brain, integrating cutting-edge quantitative techniques and experimental data. I am particularly interested in:
 * speech recognition in noisy places
-* abnormal auditory perception
+* peculiar auditory perception
 * hearing impairment
 
 Beyond auditory science, I am fond of blues music and enjoy heading outdoors.

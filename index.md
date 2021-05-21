@@ -13,8 +13,8 @@ Beyond auditory science, I am fond of blues music and enjoy heading outdoors.
 
 ### A short bio
 
-*2019-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Research Fellow, Uni. of Nottingham  
-*2016-2019* &nbsp;&nbsp; Ph.D. Otorhinolaryngology, Uni. of Nottingham  
+*2020-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Research Fellow, Uni. of Nottingham  
+*2016-2020* &nbsp;&nbsp; Ph.D. Otorhinolaryngology, Uni. of Nottingham  
 *2015-2016* &nbsp;&nbsp; M.Sc. Cognitive and Computational Neuroscience, Uni. of Sheffield  
 *2012-2015* &nbsp;&nbsp; B.Sc. (Hons) Mathematics, Uni. of Leeds
 

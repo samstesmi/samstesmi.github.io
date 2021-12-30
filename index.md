@@ -4,10 +4,10 @@ title: About me
 order: 1
 ---
 
-I am an early career scientist working in Boston, USA. My research straddles the boundaries of hearing, neuroscience, and computational analysis. Topics of interest include:
+I am an early career scientist working in Boston, USA. My research straddles the boundaries of hearing, neuroscience, and computational analysis. Areas of interest include:
 * Why can, or can't, people hear speech in noisy places?
-* Developing innovative solutions to hearing disorders such as tinnitus.
-* Inferring auditory processing via machine learning.
+* The development of solutions to hearing disorders such as tinnitus.
+* Inference of auditory processing via machine learning.
 
 Outside the lab, I am fond of blues music and enjoy being active outdoors.
 

@@ -5,7 +5,7 @@ permalink:           /research/:year/:title/
 # Setup
 title:               'Samuel Steven Smith'
 tagline:             Personal Webiste
-description:         An early career neuroscientist investigating the auditory brain.
+description:         An early career scientist investigating the auditory brain.
 url:                 http://samstesmi.github.io/
 baseurl:             /
 excerpt_separator: <!--more-->
@@ -17,4 +17,4 @@ plugins:          [jekyll-paginate]
 author:
   name:              Samuel Smith
   url:               http://samstesmi.github.io
-  email:             samuel.smith@nottingham.ac.uk
+  email:             samuel_smith@meei.harvard.edu

@@ -6,7 +6,7 @@ order: 1
 
 I am an early career scientist working in Boston, USA. My research straddles the boundaries of hearing, neuroscience, and computational analysis. Areas of interest include:
 * Why can, or can't, people hear speech in noisy places?
-* The development of solutions to hearing disorders such as tinnitus.
+* Modern solutions to hearing disorders such as tinnitus.
 * Inference of auditory processing via machine learning.
 
 Outside the lab, I am fond of blues music and enjoy being active outdoors.

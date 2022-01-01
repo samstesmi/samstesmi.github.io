@@ -9,7 +9,7 @@ I am an early career scientist working in Boston, USA. My research straddles the
 * Modern solutions to hearing disorders such as tinnitus.
 * Inference of auditory processing via machine learning.
 
-Outside the lab, I am fond of blues music and enjoy being active outdoors.
+Outside of the lab (the [Polley Lab](https://scholar.harvard.edu/polleylab/)), I am fond of blues music and enjoy being active outdoors.
 
 ### Bio
 *2021-* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Research Fellow, Harvard Medical School / Mass. Eye and Ear  

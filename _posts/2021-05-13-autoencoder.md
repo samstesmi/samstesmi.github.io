@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inferring the neural basis of binaural phenomena with a modified autoencoder
-tags: ["all", "binaural-hearing", "machine-learning"]
+tags: ["all", "spatial-hearing", "machine-learning"]
 ---
 &nbsp;&nbsp;&nbsp;&nbsp; {{ page.date | date: '%B, %Y' }}
 <!--more-->

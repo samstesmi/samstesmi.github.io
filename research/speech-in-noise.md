@@ -1,6 +1,6 @@
 ---
 layout: tagpage
 title: Research
-tag: hearing-impairment
+tag: speech-in-noise
 exclude: true
 ---

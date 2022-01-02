@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Revisiting Models of Concurrent Vowel Identification: The Critical Case of No Pitch Differences
+title: Revisiting models of concurrent vowel identification: the critical case of no pitch differences
 tags: ["all", "speech-in-noise", "machine-learning"]
 ---
 &nbsp;&nbsp;&nbsp;&nbsp; date: {{ page.date | date: '%B, %Y' }}

@@ -3,7 +3,7 @@ layout: post
 title: Revisiting models of concurrent vowel identification: the critical case of no pitch differences
 tags: ["all", "speech-in-noise", "machine-learning"]
 ---
-&nbsp;&nbsp;&nbsp;&nbsp; date: {{ page.date | date: '%B, %Y' }}
+&nbsp;&nbsp;&nbsp;&nbsp; {{ page.date | date: '%B, %Y' }}
 <!--more-->
 
 ## About

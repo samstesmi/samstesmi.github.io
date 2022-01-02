@@ -1,6 +1,6 @@
 ---
 layout: tagpage
 title: Research
-tag: digital
+tag: spatial-hearing
 exclude: true
 ---

@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<div class="Related">
-  <h3>related tags</h3>
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ content }}
+</div>
+
+<div class="related">
+  <h3>Related tags</h3>
   <span>
     {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
       <a href="https://samstesmi.github.io/research/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
     {% endfor %}
   </span>
-</div>
-
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  {{ content }}
 </div>

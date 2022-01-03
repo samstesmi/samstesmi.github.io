@@ -4,9 +4,9 @@ title: About me
 order: 1
 ---
 
-I am an early career scientist working in Boston, USA. My research is at the intersection of neuroscience, hearing science, and computational analysis. Areas of interest include:
-* Why can, or can't, people hear speech in noisy places?
+I am an early career scientist working in Boston, USA. My research is at the intersection of neuroscience, hearing, and computation. Areas of interest include:
 * Modern solutions to hearing disorders such as tinnitus.
+* Why can, or can't, people hear speech in noisy places?
 * Inference of auditory processing via machine learning.
 
 Outside of the lab (the [Polley Lab](https://scholar.harvard.edu/polleylab/)), I am fond of blues music and enjoy being active outdoors.

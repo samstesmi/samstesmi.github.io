@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Samuel Smith</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F6F5F0;
+    --paper-raised: #EFEDE5;
+    --ink: #1E2A29;
+    --ink-soft: #4C5B59;
+    --ink-faint: #8B968F;
+    --accent: #2E6E67;
+    --accent-soft: #DCE9E5;
+    --line: #D6D1C2;
+    --serif: "Source Serif 4", Georgia, serif;
+    --sans: "Public Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  :root:not([data-theme="light"]) {
+    @media (prefers-color-scheme: dark) {
+      --paper: #17201F;
+      --paper-raised: #1E2827;
+      --ink: #EDEAE0;
+      --ink-soft: #ABB6B0;
+      --ink-faint: #6C7773;
+      --accent: #6FBBAF;
+      --accent-soft: #223330;
+      --line: #34413D;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #17201F;
+    --paper-raised: #1E2827;
+    --ink: #EDEAE0;
+    --ink-soft: #ABB6B0;
+    --ink-faint: #6C7773;
+    --accent: #6FBBAF;
+    --accent-soft: #223330;
+    --line: #34413D;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent); text-decoration-color: var(--line); text-underline-offset: 3px; }
+  a:hover { text-decoration-color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  .page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+  }
+
+  /* ---------- Sidebar ---------- */
+
+  aside.sidebar {
+    flex: 0 0 260px;
+    position: sticky;
+    top: calc(56px + env(safe-area-inset-top, 0px));
+    padding: 88px 0 60px;
+  }
+
+  .avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--serif);
+    font-size: 34px;
+    font-weight: 500;
+    border: 1px solid var(--line);
+    margin: 0 0 18px;
+    /* Replace with a real photo: swap this div for <img src="..." class="avatar-img"> */
+  }
+
+  .sidebar h1 {
+    font-family: var(--serif);
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .sidebar p.role {
+    margin: 0 0 20px;
+    color: var(--ink-soft);
+    font-size: 15px;
+    max-width: 30ch;
+  }
+
+  .bio {
+    color: var(--ink-faint);
+    font-size: 15px;
+    font-style: italic;
+    margin: 0 0 20px;
+  }
+
+  .degrees-line {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 0 0 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    line-height: 1.6;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    font-size: 14px;
+  }
+
+  .links a { color: var(--ink-soft); }
+  .links a:hover { color: var(--accent); }
+
+  /* ---------- Main content ---------- */
+
+  main.main {
+    flex: 1;
+    min-width: 0;
+    padding: 88px 0 100px;
+  }
+
+  .placeholder-note {
+    font-size: 14px;
+    color: var(--ink-faint);
+    font-style: italic;
+    margin: 0 0 40px;
+    padding: 10px 14px;
+    border: 1px dashed var(--line);
+    border-radius: 3px;
+    max-width: 58ch;
+  }
+
+  .entry {
+    position: relative;
+    padding-left: 28px;
+    padding-bottom: 44px;
+    border-left: 1px solid var(--line);
+    margin-left: 5px;
+  }
+
+  .entry:last-child { border-left-color: transparent; padding-bottom: 0; }
+
+  .entry::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 4px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--paper);
+    border: 1.5px solid var(--accent);
+  }
+
+  .entry .years {
+    font-size: 13px;
+    color: var(--ink-faint);
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 6px;
+    letter-spacing: 0.02em;
+  }
+
+  .entry h3 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 18.5px;
+    margin: 0 0 3px;
+    line-height: 1.35;
+  }
+
+  .entry .org {
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    margin: 0 0 12px;
+  }
+
+  .entry p.desc {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 15.5px;
+    max-width: 56ch;
+  }
+
+  .pub-list {
+    margin: 14px 0 0;
+    max-width: 58ch;
+  }
+
+  .pub {
+    padding: 13px 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .pub:first-child { border-top: none; padding-top: 0; }
+
+  .pub .cite {
+    font-size: 15px;
+    color: var(--ink);
+    line-height: 1.55;
+    margin: 0 0 3px;
+  }
+
+  .pub .hook {
+    font-size: 14.5px;
+    font-style: italic;
+    color: var(--accent);
+    margin: 5px 0 0;
+    line-height: 1.5;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <aside class="sidebar">
+    <!-- Placeholder avatar — swap for a real photo -->
+    <div class="avatar">SS</div>
+
+    <h1>Samuel Smith</h1>
+    <p class="role">Research Fellow, <a href="https://hms.harvard.edu">Harvard Medical School</a> — based at <a href="https://masseyeandear.org">Massachusetts Eye and Ear</a></p>
+
+    <p class="bio">[ bio — one or two sentences on your research focus ]</p>
+
+    <p class="degrees-line">PhD, Otorhinolaryngology (2020)<br>MSc, Cognitive &amp; Computational Neuroscience (2016)<br>BSc (Hons), Mathematics (2015)</p>
+
+    <nav class="links">
+      <a href="mailto:samuel_smith@meei.harvard.edu">Email</a>
+      <a href="https://www.linkedin.com/in/samstesmi">LinkedIn</a>
+      <a href="https://scholar.harvard.edu/polleylab/people/samuel-smith">Scholar</a>
+      <a href="https://polleylab.meei.harvard.edu/meet-the-team/">Lab</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+
+    <p class="placeholder-note">This page is a working skeleton — sidebar info is real, everything below is a template. Duplicate the block below for each project once the details are ready.</p>
+
+    <div class="entry">
+      <div class="years">[ 20XX — 20XX ]</div>
+      <h3>[ Project title ]</h3>
+      <p class="org">[ Institution / lab ] · Advisor: [ name ]</p>
+      <p class="desc">[ One-line description of the project ]</p>
+
+      <div class="pub-list">
+        <div class="pub">
+          <p class="cite">[ Authors. ] [ Paper title. ] <em>[ Journal ]</em> [ volume, pages (year). ]</p>
+          <p class="hook">[ One-line lay explanation of why this is interesting ]</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+</div>
+
+</body>
+</html>
